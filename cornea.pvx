@@ -1,0 +1,126 @@
+<?xml version="1.0" ?>
+<pvx>
+ <Process Type="client" />
+  <Process Type="server">
+  <Machine Name="pc102.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+           LowerLeft=" -0.5588      -0.3048  -0.0762"
+           LowerRight="-0.186266667 -0.3048  -0.0762"
+           UpperRight="-0.186266667 -0.0     -0.0762"/>
+  <Machine Name="pc103.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+     LowerLeft=" -0.5588      -0.6096  -0.0762"
+           LowerRight="-0.186266667 -0.6096  -0.0762"
+           UpperRight="-0.186266667 -0.3048  -0.0762"/>
+  <Machine Name="pc104.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+           LowerLeft=" -0.186266667 -0.3048  -0.0762"
+           LowerRight=" 0.186266667 -0.3048  -0.0762"
+           UpperRight=" 0.186266667  0.0     -0.0762"/>
+  <Machine Name="pc105.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+     LowerLeft=" -0.186266667 -0.6096  -0.0762"
+           LowerRight=" 0.186266667 -0.6096  -0.0762"
+           UpperRight=" 0.186266667 -0.3048  -0.0762"/>
+  <Machine Name="pc106.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+           LowerLeft="  0.186266667 -0.3048  -0.0762"
+           LowerRight=" 0.5588      -0.3048  -0.0762"
+           UpperRight=" 0.5588       0.0     -0.0762"/>
+  <Machine Name="pc107.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+     LowerLeft="  0.186266667 -0.6096  -0.0762"
+           LowerRight=" 0.5588      -0.6096  -0.0762"
+           UpperRight=" 0.5588      -0.3048  -0.0762"/>
+  <Machine Name="pc108.cornea.vis.kaust.edu.sa"
+          Environment="DISPLAY=:0"
+          LowerLeft="  0.186266667 -0.6096  -0.0762"
+          LowerRight=" 0.5588      -0.6096  -0.0762"
+          UpperRight=" 0.5588      -0.3048  -0.0762"/>
+  <Machine Name="pc109.cornea.vis.kaust.edu.sa"
+          Environment="DISPLAY=:0"
+          LowerLeft="  0.186266667 -0.6096  -0.0762"
+          LowerRight=" 0.5588      -0.6096  -0.0762"
+          UpperRight=" 0.5588      -0.3048  -0.0762"/>
+  <Machine Name="pc110.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+           LowerLeft=" -0.5588      -0.3048  -0.0762"
+           LowerRight="-0.186266667 -0.3048  -0.0762"
+           UpperRight="-0.186266667 -0.0     -0.0762"/>
+  <Machine Name="pc111.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+     LowerLeft=" -0.5588      -0.6096  -0.0762"
+           LowerRight="-0.186266667 -0.6096  -0.0762"
+           UpperRight="-0.186266667 -0.3048  -0.0762"/>
+  <Machine Name="pc112.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+           LowerLeft=" -0.186266667 -0.3048  -0.0762"
+           LowerRight=" 0.186266667 -0.3048  -0.0762"
+           UpperRight=" 0.186266667  0.0     -0.0762"/>
+  <Machine Name="pc113.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+     LowerLeft=" -0.186266667 -0.6096  -0.0762"
+           LowerRight=" 0.186266667 -0.6096  -0.0762"
+           UpperRight=" 0.186266667 -0.3048  -0.0762"/>
+  <Machine Name="pc114.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+           LowerLeft="  0.186266667 -0.3048  -0.0762"
+           LowerRight=" 0.5588      -0.3048  -0.0762"
+           UpperRight=" 0.5588       0.0     -0.0762"/>
+  <Machine Name="pc115.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+     LowerLeft="  0.186266667 -0.6096  -0.0762"
+           LowerRight=" 0.5588      -0.6096  -0.0762"
+           UpperRight=" 0.5588      -0.3048  -0.0762"/>
+  <Machine Name="pc116.cornea.vis.kaust.edu.sa"
+          Environment="DISPLAY=:0"
+          LowerLeft="  0.186266667 -0.6096  -0.0762"
+          LowerRight=" 0.5588      -0.6096  -0.0762"
+          UpperRight=" 0.5588      -0.3048  -0.0762"/>
+  <Machine Name="pc117.cornea.vis.kaust.edu.sa"
+          Environment="DISPLAY=:0"
+          LowerLeft="  0.186266667 -0.6096  -0.0762"
+          LowerRight=" 0.5588      -0.6096  -0.0762"
+          UpperRight=" 0.5588      -0.3048  -0.0762"/>
+  <Machine Name="pc118.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+           LowerLeft=" -0.5588      -0.3048  -0.0762"
+           LowerRight="-0.186266667 -0.3048  -0.0762"
+           UpperRight="-0.186266667 -0.0     -0.0762"/>
+  <Machine Name="pc119.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+     LowerLeft=" -0.5588      -0.6096  -0.0762"
+           LowerRight="-0.186266667 -0.6096  -0.0762"
+           UpperRight="-0.186266667 -0.3048  -0.0762"/>
+  <Machine Name="pc120.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+           LowerLeft=" -0.186266667 -0.3048  -0.0762"
+           LowerRight=" 0.186266667 -0.3048  -0.0762"
+           UpperRight=" 0.186266667  0.0     -0.0762"/>
+  <Machine Name="pc121.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+     LowerLeft=" -0.186266667 -0.6096  -0.0762"
+           LowerRight=" 0.186266667 -0.6096  -0.0762"
+           UpperRight=" 0.186266667 -0.3048  -0.0762"/>
+  <Machine Name="pc122.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+           LowerLeft="  0.186266667 -0.3048  -0.0762"
+           LowerRight=" 0.5588      -0.3048  -0.0762"
+           UpperRight=" 0.5588       0.0     -0.0762"/>
+  <Machine Name="pc123.cornea.vis.kaust.edu.sa"
+           Environment="DISPLAY=:0"
+     LowerLeft="  0.186266667 -0.6096  -0.0762"
+           LowerRight=" 0.5588      -0.6096  -0.0762"
+           UpperRight=" 0.5588      -0.3048  -0.0762"/>
+  <Machine Name="pc124.cornea.vis.kaust.edu.sa"
+          Environment="DISPLAY=:0"
+          LowerLeft="  0.186266667 -0.6096  -0.0762"
+          LowerRight=" 0.5588      -0.6096  -0.0762"
+          UpperRight=" 0.5588      -0.3048  -0.0762"/>
+  <Machine Name="pc125.cornea.vis.kaust.edu.sa"
+          Environment="DISPLAY=:0"
+          LowerLeft="  0.186266667 -0.6096  -0.0762"
+          LowerRight=" 0.5588      -0.6096  -0.0762"
+          UpperRight=" 0.5588      -0.3048  -0.0762"/>
+ </Process>
+</pvx>

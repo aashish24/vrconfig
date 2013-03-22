@@ -1,0 +1,2417 @@
+#********************************************
+# TechViz Reference Configuration File
+# Product: TechViz XL tracking
+#
+# Author: TechViz
+#
+#********************************************
+
+############################################################################
+#
+#   About the TechViz Reference Configuration File document
+#   There are 7 sections to configure TechViz
+#
+#   SECTION 1   : NETWORKING SETUP
+#   SECTION 2   : SCREEN SETUP
+#           2.1 : REFERENCE SETUP
+#           2.2 : SCREEN PROJECTION
+#           2.3 : HMD VIEWS
+#           2.4 : ADDITIONNAL DISPLAY SETUP
+#   SECTION 3   : PARTIAL DESKTOP, DUAL VIEW AND MULTI-GPU SETUP
+#   SECTION 4   : TRACKING SETUP
+#           4.1 : TRACKED DEVICE
+#           4.2 : NON TRACKED DEVICE
+#   SECTION 5   : ADVANCED CUSTOM VR SETUP
+#           5.1 : APPLICATION GUI
+#           5.2 : VISUALIZATION PARAMETERS
+#           5.3 : PER APPLICATION DEFAULT PARAMETERS
+#           5.4 : SKELETON
+#           5.5 : RECORD/REPLAY
+#           5.6 : FUSION
+#           5.7 : VIRTUAL ASSEMBLY
+#           5.8 : TVZLIB
+#   SECTION 6   : DO NOT MODIFY PARAMETERS
+#   SECTION 7   : SINGLE MACHINE QUICK TESTING
+#
+############################################################################
+
+############################################################################
+#
+#   SECTION 1   : NETWORKING SETUP
+#
+############################################################################
+
+MULTIHOSTS=109.171.138.194:1+109.171.138.195:1+109.171.138.196:1+109.171.138.197:1+109.171.138.198:1+109.171.138.199:1+109.171.138.200:1+109.171.138.201:1+109.171.138.202:1+109.171.138.203:1+109.171.138.204:1+109.171.138.205:1+109.171.138.206:1+109.171.138.207:1+109.171.138.208:1+109.171.138.209:1+109.171.138.210:1+109.171.138.211:1+109.171.138.212:1+109.171.138.213:1+109.171.138.214:1+109.171.138.215:1+109.171.138.216:1+109.171.138.217:1
+
+
+############################################################################
+#
+#   SECTION 2   : SCREEN SETUP
+#
+############################################################################
+# display on screen the configuration helper
+#debug config=1
+#
+############################################################################
+#           2.1 : REFERENCE SETUP
+
+reference\bottom\left\x=-2.709
+reference\bottom\left\y=-1.524
+reference\bottom\left\z=-1.524
+reference\top\left\x=-2.709
+reference\top\left\y=1.524
+reference\top\left\z=-1.524
+reference\top\right\x=2.709
+reference\top\right\y=1.524
+reference\top\right\z=-1.524
+reference\bottom\right\x=2.709
+reference\bottom\right\y=-1.524
+reference\bottom\right\z=-1.524
+
+# center model functionnality position
+room center\x=0
+room center\y=0
+room center\z=0
+
+# head position when no tracking
+default head pos\x=0
+default head pos\y=0.762
+default head pos\z=0
+
+############################################################################
+#           2.2 : SCREEN PROJECTION
+############################################################################
+#
+# default values for screen definitions
+
+actual\bottom\left\x=-1.524
+actual\bottom\left\y=-1.524
+actual\bottom\left\z=-1.524
+actual\top\left\x=-1.524
+actual\top\left\y=1.524
+actual\top\left\z=-1.524
+actual\top\right\x=1.524
+actual\top\right\y=1.524
+actual\top\right\z=-1.524
+actual\bottom\right\x=1.524
+actual\bottom\right\y=-1.524
+actual\bottom\right\z=-1.524
+
+HUD\bottom\left\x=-1.524
+HUD\bottom\left\y=-1.524
+HUD\bottom\left\z=-1.524
+HUD\top\left\x=-1.524
+HUD\top\left\y=1.524
+HUD\top\left\z=-1.524
+HUD\top\right\x=1.524
+HUD\top\right\y=1.524
+HUD\top\right\z=-1.524
+HUD\bottom\right\x=1.524
+HUD\bottom\right\y=-1.524
+HUD\bottom\right\z=-1.524
+
+# topfronttopleftleft
+host pc102.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-1.524
+host pc102.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-0.076
+host pc102.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.524
+host pc102.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=1.524
+host pc102.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-0.076
+host pc102.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-1.524
+host pc102.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=1.524
+host pc102.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=1.524
+host pc102.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-1.524
+
+# topfronttopleftleft
+host pc103.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-1.524
+host pc103.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-0.076
+host pc103.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.524
+host pc103.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=1.524
+host pc103.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-0.076
+host pc103.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-1.524
+host pc103.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=1.524
+host pc103.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=1.524
+host pc103.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-1.524
+
+
+# bottomfronttopleftleft
+host pc104.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-1.524
+host pc104.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-1.524
+host pc104.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.524
+host pc104.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=1.524
+host pc104.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-1.524
+host pc104.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-1.524
+host pc104.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=1.524
+host pc104.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=0.076
+host pc104.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-1.524
+
+# bottomfronttopleftleft
+host pc105.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-1.524
+host pc105.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-1.524
+host pc105.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.524
+host pc105.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=1.524
+host pc105.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-1.524
+host pc105.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-1.524
+host pc105.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=1.524
+host pc105.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=0.076
+host pc105.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-1.524
+
+# toplefttopleftleft
+host pc106.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-1.524
+host pc106.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-0.076
+host pc106.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=1.524
+host pc106.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-1.524
+host pc106.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-0.076
+host pc106.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-1.524
+host pc106.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-1.524
+host pc106.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=1.524
+host pc106.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-1.524
+
+
+# toplefttopleftleft
+host pc107.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-1.524
+host pc107.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-0.076
+host pc107.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=1.524
+host pc107.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-1.524
+host pc107.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-0.076
+host pc107.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-1.524
+host pc107.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-1.524
+host pc107.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=1.524
+host pc107.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-1.524
+
+
+# bottomlefttopleftleft
+host pc108.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-1.524
+host pc108.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-1.524
+host pc108.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=1.524
+host pc108.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-1.524
+host pc108.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-1.524
+host pc108.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-1.524
+host pc108.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-1.524
+host pc108.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=0.076
+host pc108.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-1.524
+
+# bottomlefttopleftleft
+host pc109.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-1.524
+host pc109.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-1.524
+host pc109.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=1.524
+host pc109.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-1.524
+host pc109.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-1.524
+host pc109.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-1.524
+host pc109.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-1.524
+host pc109.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=0.076
+host pc109.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-1.524
+
+
+# toprighttopleftleft
+host pc110.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=1.524
+host pc110.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-0.076
+host pc110.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.524
+host pc110.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=1.524
+host pc110.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-0.076
+host pc110.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=1.524
+host pc110.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=1.524
+host pc110.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=1.524
+host pc110.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=1.524
+
+
+# toprighttopleftleft
+host pc111.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=1.524
+host pc111.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-0.076
+host pc111.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.524
+host pc111.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=1.524
+host pc111.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-0.076
+host pc111.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=1.524
+host pc111.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=1.524
+host pc111.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=1.524
+host pc111.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=1.524
+
+
+
+# bottomrighttopleftleft
+host pc112.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=1.524
+host pc112.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-1.524
+host pc112.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.524
+host pc112.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=1.524
+host pc112.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-1.524
+host pc112.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=1.524
+host pc112.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=1.524
+host pc112.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=0.076
+host pc112.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=1.524
+
+
+# bottomrighttopleftleft
+host pc113.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=1.524
+host pc113.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-1.524
+host pc113.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.524
+host pc113.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=1.524
+host pc113.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-1.524
+host pc113.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=1.524
+ost pc113.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=1.524
+host pc113.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=0.076
+host pc113.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=1.524
+
+
+
+
+
+# topfloortopleftleft
+host pc114.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-0.076
+host pc114.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-1.524
+host pc114.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.524
+host pc114.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-0.076
+host pc114.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-1.524
+host pc114.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=1.524
+host pc114.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=1.524
+host pc114.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=-1.524
+host pc114.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=1.524
+
+
+# topfloortopleftleft
+host pc115.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-0.076
+host pc115.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-1.524
+host pc115.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.524
+host pc115.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-0.076
+host pc115.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-1.524
+host pc115.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=1.524
+ost pc115.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=1.524
+host pc115.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=-1.524
+host pc115.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=1.524
+
+
+# bottomfloortopleftleft
+host pc116.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-1.524
+host pc116.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-1.524
+host pc116.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.524
+host pc116.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-1.524
+host pc116.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-1.524
+host pc116.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=1.524
+st pc116.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=0.076
+host pc116.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=-1.524
+host pc116.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=1.524
+
+# bottomfloortopleftleft
+host pc117.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-1.524
+host pc117.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-1.524
+host pc117.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.524
+host pc117.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-1.524
+host pc117.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-1.524
+host pc117.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=1.524
+ost pc117.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=0.076
+host pc117.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=-1.524
+host pc117.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=1.524
+
+
+# topreartopleftleft
+host pc118.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=1.524
+host pc118.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-0.076
+host pc118.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=1.524
+host pc118.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-1.524
+host pc118.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-0.076
+host pc118.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=1.524
+st pc118.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-1.524
+host pc118.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=1.524
+host pc118.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=1.524
+
+
+# topreartopleftleft
+host pc119.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=1.524
+host pc119.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-0.076
+host pc119.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=1.524
+host pc119.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-1.524
+host pc119.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-0.076
+host pc119.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=1.524
+ost pc119.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-1.524
+host pc119.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=1.524
+host pc119.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=1.524
+
+
+
+# bottomreartopleftleft
+host pc120.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=1.524
+host pc120.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-1.524
+host pc120.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=1.524
+host pc120.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-1.524
+host pc120.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-1.524
+host pc120.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=1.524
+ost pc120.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-1.524
+host pc120.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=0.076
+host pc120.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=1.524
+
+
+
+# bottomreartopleftleft
+host pc121.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=1.524
+host pc121.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-1.524
+host pc121.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=1.524
+host pc121.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-1.524
+host pc121.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-1.524
+host pc121.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=1.524
+ost pc121.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-1.524
+host pc121.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=0.076
+host pc121.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=1.524
+
+
+
+# topceil.cornea.vis.kaust.edu.saingtopleftleft
+host pc122.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=1.524
+host pc122.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=1.524
+host pc122.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.524
+host pc122.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=1.524
+host pc122.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=1.524
+host pc122.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=1.524
+ost pc122.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-0.076
+host pc122.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=1.524
+host pc122.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=1.524
+
+# topceil.cornea.vis.kaust.edu.saingtopleftleft
+host pc123.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=1.524
+host pc123.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=1.524
+host pc123.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.524
+host pc123.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=1.524
+host pc123.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=1.524
+host pc123.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=1.524
+ost pc123.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-0.076
+host pc123.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=1.524
+host pc123.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=1.524
+
+
+
+# bottomceilingtopleftleft
+host pc124.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=0.076
+host pc124.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=1.524
+host pc124.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.524
+host pc124.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=0.076
+host pc124.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=1.524
+host pc124.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=1.524
+ost pc124.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-1.524
+host pc124.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=1.524
+host pc124.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=1.524
+
+
+# bottomceilingtopleftleft
+host pc125.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=0.076
+host pc125.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=1.524
+host pc125.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.524
+host pc125.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=0.076
+host pc125.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=1.524
+host pc125.cornea.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=1.524
+ost pc125.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-1.524
+host pc125.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\y=1.524
+host pc125.cornea.vis.kaust.edu.sa\screen screen0\actual\top\right\z=1.524
+
+
+
+############################################################################
+#           2.3 : HMD VIEWS
+# activate HMD
+track screens=0
+# NVIS nVisor SX
+hmd diagonal fov=60
+hmd ratio fov=1.25
+
+############################################################################
+#           2.4 : STEREO SETUP
+# For each Render Node, configure passive stereo parameter
+#host PClefteye\passive stereo=left
+#host PCrighteye\passive stereo=right
+debug stereo=0
+
+############################################################################
+#
+#   SECTION 3   : PARTIAL DESKTOP, DUAL VIEW AND MULTI-GPU SETUP
+#
+############################################################################
+# When using more than one GPU or if you want to use the application PC node
+# also as the rendering node
+# => you must define in pixel the displayed managed area
+#
+# Each TechViz graphic service has to be started with -s<screenname> option
+# and a different port number to avoid conflict
+# example: techvizd -sGPU1 -i2
+
+#screen GPU1\fullscreen x min=0
+#screen GPU1\fullscreen x max=1920
+#screen GPU1\fullscreen y min=0
+#screen GPU1\fullscreen y max=1200
+#
+#screen GPU2\fullscreen x min=1920
+#screen GPU2\fullscreen x max=3840
+#screen GPU2\fullscreen y min=0
+#screen GPU2\fullscreen y max=1200
+
+host pc102.cornea.vis.kaust.edu.sa\passive stereo=left
+host pc103.cornea.vis.kaust.edu.sa\passive stereo=right
+host pc104.cornea.vis.kaust.edu.sa\passive stereo=left
+host pc105.cornea.vis.kaust.edu.sa\passive stereo=right
+
+host pc106.cornea.vis.kaust.edu.sa\passive stereo=left
+host pc107.cornea.vis.kaust.edu.sa\passive stereo=right
+host pc108.cornea.vis.kaust.edu.sa\passive stereo=left
+host pc109.cornea.vis.kaust.edu.sa\passive stereo=right
+
+host pc110.cornea.vis.kaust.edu.sa\passive stereo=left
+host pc111.cornea.vis.kaust.edu.sa\passive stereo=right
+host pc112.cornea.vis.kaust.edu.sa\passive stereo=left
+host pc113.cornea.vis.kaust.edu.sa\passive stereo=right
+
+host pc114.cornea.vis.kaust.edu.sa\passive stereo=left
+host pc115.cornea.vis.kaust.edu.sa\passive stereo=right
+host pc116.cornea.vis.kaust.edu.sa\passive stereo=left
+host pc117.cornea.vis.kaust.edu.sa\passive stereo=right
+
+host pc118.cornea.vis.kaust.edu.sa\passive stereo=left
+host pc119.cornea.vis.kaust.edu.sa\passive stereo=right
+host pc120.cornea.vis.kaust.edu.sa\passive stereo=left
+host pc121.cornea.vis.kaust.edu.sa\passive stereo=right
+
+host pc122.cornea.vis.kaust.edu.sa\passive stereo=left
+host pc123.cornea.vis.kaust.edu.sa\passive stereo=right
+host pc124.cornea.vis.kaust.edu.sa\passive stereo=left
+host pc125.cornea.vis.kaust.edu.sa\passive stereo=right
+
+# Multi-monitor mode
+#application area=primary
+#display area=secondary
+
+############################################################################
+#   SECTION 4   : TRACKING SETUP
+############################################################################
+#           4.1 : 6DOF TRACKED DEVICE
+############################################################################
+# eye positions due to origin of the Head Target sensor
+left eye offset\x=-0.025400
+left eye offset\y=0.000000
+left eye offset\z=0.000000
+right eye offset\x=0.025400
+right eye offset\y=0.000000
+right eye offset\z=0.000000
+
+# debugging
+tracking info on screen=0
+
+# Enable/Disable tracking
+fixed head=0
+static head\x=default head
+static head\y=default head
+static head\z=default head
+
+############################################################################
+#           4.1.a : TechViz tracking emulator
+#number of head=1
+#number of wand=1
+#dtrackemu port=5000
+#dtrackemu hrange=3
+# activate for on display tracking data
+
+############################################################################
+#           4.1.b : A.R.T. tracking + A.R.T. Flystick
+## Tracking configuration
+#dtrack port=5000
+## Modification of tracking information to comply TechViz setup
+##coef tracker to univ\x=1
+##coef tracker to univ\y=1
+##coef tracker to univ\z=1
+##tracker axe in univ\x=x
+##tracker axe in univ\y=y
+##tracker axe in univ\z=z
+#offset tracker to univ\x=0
+#offset tracker to univ\y=0.043
+#offset tracker to univ\z=0
+#
+## Neutral position of the head target
+## HOWTO setup
+## a: Activate the tracking info on screen
+## b: Handle the Target straight to the front screen
+## c: Note the in screen value (quat x,y,z,t)
+## d: Put the values x,y,z,t in these parameters (dtrackbody 0 in this example)
+#neutral direction\device dtrackbody\sensor 0\x=0
+#neutral direction\device dtrackbody\sensor 0\y=1
+#neutral direction\device dtrackbody\sensor 0\z=0
+#neutral direction\device dtrackbody\sensor 0\t=0
+## Neutral position of the hand target
+#neutral direction\device dtrackflystick\sensor 0\x=0
+#neutral direction\device dtrackflystick\sensor 0\y=1
+#neutral direction\device dtrackflystick\sensor 0\z=0
+#neutral direction\device dtrackflystick\sensor 0\t=0
+#
+## Head configuration
+#number of head=1
+#head\0\device type=dtrackbody
+#head\0\sensor=0
+#
+## Wand configuration
+#number of wand=1
+## wand positionning
+#wand\0\device type=dtrackflystick
+#wand\0\sensor=0
+## wand interaction
+#button mapping\flystick=Flystick2
+##button mapping\flystick=Flystick1
+
+############################################################################
+#           4.1.b : A.R.T. tracking + Wiimote
+## Tracking configuration
+#dtrack port=5000
+## Modification of tracking information to comply TechViz setup
+##coef tracker to univ\x=1
+##coef tracker to univ\y=1
+##coef tracker to univ\z=1
+##tracker axe in univ\x=x
+##tracker axe in univ\y=y
+##tracker axe in univ\z=z
+#offset tracker to univ\x=0
+#offset tracker to univ\y=0.043
+#offset tracker to univ\z=0
+#
+## Neutral position of the head target
+## HOWTO setup
+## a: Activate the tracking info on screen
+## b: Handle the Target straight to the front screen
+## c: Note the in screen value (quat x,y,z,t)
+## d: Put the values x,y,z,t in these parameters (dtrackbody 0 in this example)
+#neutral direction\device dtrackbody\sensor 0\x=0
+#neutral direction\device dtrackbody\sensor 0\y=1
+#neutral direction\device dtrackbody\sensor 0\z=0
+#neutral direction\device dtrackbody\sensor 0\t=0
+## Neutral position of the hand target
+#neutral direction\device dtrackflystick\sensor 0\x=0
+#neutral direction\device dtrackflystick\sensor 0\y=1
+#neutral direction\device dtrackflystick\sensor 0\z=0
+#neutral direction\device dtrackflystick\sensor 0\t=0
+
+#
+## Head configuration
+#number of head=1
+#head\0\device type=dtrackbody
+#head\0\sensor=0
+#
+## Wand configuration
+#number of wand=2
+## wand positionning
+#wand\0\device type=dtrackbody
+#wand\0\sensor=1
+## wand interaction
+#use wii=1
+#wand\1\device type=wiimote
+#wand\1\sensor=0
+#wiimote\bluetooth stack=microsoft_bluetooth
+#button mapping\flystick=wiimote
+
+############################################################################
+#           4.1.c : A.R.T. tracking + Mike
+## Tracking configuration
+#dtrack port=5000
+## Modification of tracking information to comply TechViz setup
+##coef tracker to univ\x=1
+##coef tracker to univ\y=1
+##coef tracker to univ\z=1
+##tracker axe in univ\x=x
+##tracker axe in univ\y=y
+##tracker axe in univ\z=z
+#offset tracker to univ\x=0
+#offset tracker to univ\y=0.043
+#offset tracker to univ\z=0
+#
+## Neutral position of the head target
+## HOWTO setup
+## a: Activate the tracking info on screen
+## b: Handle the Target straight to the front screen
+## c: Note the in screen value (quat x,y,z,t)
+## d: Put the values x,y,z,t in these parameters (dtrackbody 0 in this example)
+#neutral direction\device dtrackbody\sensor 0\x=0
+#neutral direction\device dtrackbody\sensor 0\y=1
+#neutral direction\device dtrackbody\sensor 0\z=0
+#neutral direction\device dtrackbody\sensor 0\t=0
+## Neutral position of the hand target
+#neutral direction\device dtrackflystick\sensor 0\x=0
+#neutral direction\device dtrackflystick\sensor 0\y=1
+#neutral direction\device dtrackflystick\sensor 0\z=0
+#neutral direction\device dtrackflystick\sensor 0\t=0
+#
+## Head configuration
+#number of head=1
+#head\0\device type=dtrackbody
+#head\0\sensor=0
+#
+## Wand configuration
+#number of wand=2
+## wand positionning
+#wand\0\device type=dtrackbody
+#wand\0\sensor=1
+## wand interaction
+#multiuser=0
+#use mike=1
+#wand\1\device type=mike
+#wand\1\sensor=0
+#button mapping\flystick=mike
+
+############################################################################
+#           4.1.d : Vicon tracking + ICIDO Mike
+## Tracking configuration
+#vicon host=192.168.0.11
+#vicon port=800
+#vicon display body names=0
+## Modification of tracking information to comply TechViz setup
+##coef tracker to univ\x=1
+##coef tracker to univ\y=1
+##coef tracker to univ\z=1
+##tracker axe in univ\x=x
+##tracker axe in univ\y=y
+##tracker axe in univ\z=z
+##tracker rotation axe in univ\x=x
+##tracker rotation axe in univ\y=y
+##tracker rotation axe in univ\z=z
+#offset tracker to univ\x=0
+#offset tracker to univ\y=0.043
+#offset tracker to univ\z=0
+#
+## Neutral position of the head
+## HOWTO setup
+## a: Activate the tracking info on screen
+## b: Handle the Target straight to the front screen
+## c: Note the in screen value (quat x,y,z,t)
+## d: Put the values x,y,z,t in these parameters (dtrackbody 0 in this example)
+##neutral direction\device viconbody\sensor 02_Mike_ICIDO:02_Mike_ICIDO\x=0
+##neutral direction\device viconbody\sensor 02_Mike_ICIDO:02_Mike_ICIDO\y=0
+##neutral direction\device viconbody\sensor 02_Mike_ICIDO:02_Mike_ICIDO\z=1
+##neutral direction\device viconbody\sensor 02_Mike_ICIDO:02_Mike_ICIDO\t=0
+#
+## Head configuration
+#number of head=1
+#head\0\device type=viconbody
+#head\0\sensor=01_Glasses_Cover:01_Glasses_Cover
+#
+## Wand configuration
+#number of wand=2
+## wand positionning
+#wand\0\device type=viconbody
+#wand\0\sensor=02_Mike_ICIDO:02_Mike_ICIDO
+## wand interaction
+#multiuser=0
+#use mike=1
+#wand\1\device type=mike
+#wand\1\sensor=0
+#button mapping\flystick=mike
+
+############################################################################
+#           4.1.e : Vicon tracking + Wiimote
+## Tracking configuration
+#vicon host=192.168.0.11
+#vicon port=800
+#vicon display body names=0
+## Modification of tracking information to comply TechViz setup
+##coef tracker to univ\x=1
+##coef tracker to univ\y=1
+##coef tracker to univ\z=1
+##tracker axe in univ\x=x
+##tracker axe in univ\y=y
+##tracker axe in univ\z=z
+##tracker rotation axe in univ\x=x
+##tracker rotation axe in univ\y=y
+##tracker rotation axe in univ\z=z
+#offset tracker to univ\x=0
+#offset tracker to univ\y=0.043
+#offset tracker to univ\z=0
+#
+## Neutral position of the head
+## HOWTO setup
+## a: Activate the tracking info on screen
+## b: Handle the Target straight to the front screen
+## c: Note the in screen value (quat x,y,z,t)
+## d: Put the values x,y,z,t in these parameters (dtrackbody 0 in this example)
+##neutral direction\device viconbody\sensor 02_Mike_ICIDO:02_Mike_ICIDO\x=0
+##neutral direction\device viconbody\sensor 02_Mike_ICIDO:02_Mike_ICIDO\y=0
+##neutral direction\device viconbody\sensor 02_Mike_ICIDO:02_Mike_ICIDO\z=1
+##neutral direction\device viconbody\sensor 02_Mike_ICIDO:02_Mike_ICIDO\t=0
+#
+## Head configuration
+#number of head=1
+#head\0\device type=viconbody
+#head\0\sensor=01_Glasses_Cover:01_Glasses_Cover
+#
+## Wand configuration
+#number of wand=2
+## wand positionning
+#wand\0\device type=viconbody
+#wand\0\sensor=02_Mike_ICIDO:02_Mike_ICIDO
+## wand interaction
+#use wii=1
+#wand\1\device type=wiimote
+#wand\1\sensor=0
+#wiimote\bluetooth stack=microsoft_bluetooth
+#button mapping\flystick=wiimote
+
+
+############################################################################
+#           4.1.f : vrpn tracking
+## Tracking configuration
+#vrpn port=3883
+#vrpn\number of devices=2
+#vrpn\device 0\device name=devicename0@192.168.0.200
+#vrpn\device 1\device name=devicename1@192.168.0.200
+#
+## Modification of tracking information to comply TechViz setup
+##coef tracker to univ\x=1
+##coef tracker to univ\y=1
+##coef tracker to univ\z=1
+##tracker axe in univ\x=x
+##tracker axe in univ\y=y
+##tracker axe in univ\z=z
+##tracker rotation axe in univ\x=x
+##tracker rotation axe in univ\y=y
+##tracker rotation axe in univ\z=z
+#offset tracker to univ\x=0
+#offset tracker to univ\y=0.043
+#offset tracker to univ\z=0
+#
+## Neutral position of the head
+## HOWTO setup
+## a: Activate the tracking info on screen
+## b: Handle the Target straight to the front screen
+## c: Note the in screen value (quat x,y,z,t)
+## d: Put the values x,y,z,t in these parameters (dtrackbody 0 in this example)
+##neutral direction\device devicename0@192.168.0.200\sensor 0\x=0
+##neutral direction\device devicename0@192.168.0.200\sensor 0\y=0
+##neutral direction\device devicename0@192.168.0.200\sensor 0\z=1
+##neutral direction\device devicename0@192.168.0.200\sensor 0\t=0
+#
+## Head configuration
+#number of head=1
+#head\0\device num=0
+#head\0\sensor=0
+#
+## Wand configuration
+#number of wand=2
+## wand positionning
+#wand\0\device num=0
+#wand\0\sensor=1
+## wand interaction
+#wand\1\device num=1
+#wand\1\sensor=1
+#button mapping\flystick=is900
+
+############################################################################
+#           4.1.g : TrackD
+
+trackd dll=/opt/trackdAPI/lib64/linux_x86_64/libtrackdAPI_c.so
+## Modification of tracking information to comply TechViz setup
+##coef tracker to univ\x=1
+##coef tracker to univ\y=1
+##coef tracker to univ\z=1
+##tracker axe in univ\x=x
+##tracker axe in univ\y=y
+##tracker axe in univ\z=z
+##tracker rotation axe in univ\x=x
+##tracker rotation axe in univ\y=y
+##tracker rotation axe in univ\z=z
+offset tracker to univ\x=0
+offset tracker to univ\y=-1.524
+offset tracker to univ\z=0
+
+## Neutral position of the head
+## HOWTO setup
+## a: Activate the tracking info on screen
+## b: Handle the Target straight to the front screen
+## c: Note the in screen value (quat x,y,z,t)
+## d: Put the values x,y,z,t in these parameters (dtrackbody 0 in this example)
+##neutral direction\device dtrackbody\sensor 0\x=0
+##neutral direction\device dtrackbody\sensor 0\y=1
+##neutral direction\device dtrackbody\sensor 0\z=0
+##neutral direction\device dtrackbody\sensor 0\t=0
+#
+##o Head configuration
+
+
+#Modification of tracking information to comply TechViz setup
+coef tracker to univ\x=0.3
+coef tracker to univ\y=0.3
+coef tracker to univ\z=0.3
+#tracker axe in univ\x=x
+#tracker axe in univ\y=-z
+#tracker axe in univ\z=-y
+#tracker rotation axe in univ\x=x
+#tracker rotation axe in univ\y=y
+#tracker rotation axe in univ\z=z
+#offset tracker to univ\x=0
+#offset tracker to univ\y=0.043
+#offset tracker to univ\z=0
+
+# Neutral position of the head
+# HOWTO setup
+# a: Activate the tracking info on screen
+# b: Handle the Target straight to the front screen
+# c: Note the in screen value (quat x,y,z,t)
+# d: Put the values x,y,z,t in these parameters
+#neutral direction\device trackdtracker\sensor 4126 0\x=-0.06
+#neutral direction\device trackdtracker\sensor 4126 0\y=0.83
+#neutral direction\device trackdtracker\sensor 4126 0\z=0.56
+#neutral direction\device trackdtracker\sensor 4126 0\t=0.0
+#
+#neutral direction\device trackdtracker\sensor 4126 2\x=0.75
+#neutral direction\device trackdtracker\sensor 4126 2\y=0.00
+#neutral direction\device trackdtracker\sensor 4126 2\z=0.00
+#neutral direction\device trackdtracker\sensor 4126 2\t=0.66
+
+# Head configuration
+number of head=1
+head\0\device type=trackdtracker
+head\0\sensor=4126 1
+
+## Wand configuration
+number of wand=2
+# wand positionning
+wand\0\device type=trackdtracker
+wand\0\sensor=4126 0
+## wand interaction
+multiuser=0
+wand\1\device type=trackdcontroller
+wand\1\sensor=4127
+
+button mapping\flystick=Flystick2
+tracking info=head 0+wand 0+wand 1
+
+############################################################################
+# 			4.1.h : IS900 vrpn tracking
+## Tracking configuration
+#vrpn port=3883
+#vrpn\number of devices=2
+##IF server vrpn on same computer as otrack
+#vrpn\device 0\device name=Tracker0@localhost
+#vrpn\device 1\device name=Wand0@localhost
+##ELSIF server vrpn on computer with different IP (192.168.0.1 to be modified)
+#vrpn\device 0\device name=Tracker0@192.168.0.1
+#vrpn\device 1\device name=Wand0@192.168.0.1
+#
+## Modification of tracking information to comply TechViz setup
+##coef tracker to univ\x=1
+##coef tracker to univ\y=1
+##coef tracker to univ\z=1
+##tracker axe in univ\x=x
+##tracker axe in univ\y=y
+##tracker axe in univ\z=z
+##tracker rotation axe in univ\x=x
+##tracker rotation axe in univ\y=y
+##tracker rotation axe in univ\z=z
+#offset tracker to univ\x=0
+#offset tracker to univ\y=0.0
+#offset tracker to univ\z=0
+#
+## Neutral position of the head
+## HOWTO setup
+## a: Activate the tracking info on screen
+## b: Handle the Target straight to the front screen
+## c: Note the in screen value (quat x,y,z,t)
+## d: Put the values x,y,z,t in these parameters
+## e: choose between IP 192.168.0.1 or localhost
+## f: Tracker0@localhost\sensor 0 is for the head, Tracker0@localhost\sensor 1 is for the wand
+##IF server vrpn on same computer as otrack
+##neutral direction\device Tracker0@localhost\sensor 0\x=0
+##neutral direction\device Tracker0@localhost\sensor 0\y=0
+##neutral direction\device Tracker0@localhost\sensor 0\z=1
+##neutral direction\device Tracker0@localhost\sensor 0\t=0
+##neutral direction\device Tracker0@localhost\sensor 1\x=0
+##neutral direction\device Tracker0@localhost\sensor 1\y=0
+##neutral direction\device Tracker0@localhost\sensor 1\z=1
+##neutral direction\device Tracker0@localhost\sensor 1\t=0
+##ELSIF server vrpn on computer with different IP (192.168.0.1 to be modified)
+##neutral direction\device Tracker0@192.168.0.1\sensor 0\x=0
+##neutral direction\device Tracker0@192.168.0.1\sensor 0\y=0
+##neutral direction\device Tracker0@192.168.0.1\sensor 0\z=1
+##neutral direction\device Tracker0@192.168.0.1\sensor 0\t=0
+##neutral direction\device Tracker0@192.168.0.1\sensor 1\x=0
+##neutral direction\device Tracker0@192.168.0.1\sensor 1\y=0
+##neutral direction\device Tracker0@192.168.0.1\sensor 1\z=1
+##neutral direction\device Tracker0@192.168.0.1\sensor 1\t=0
+#
+## Head configuration
+#number of head=1
+#head\0\device num=0
+#head\0\sensor=0
+#
+## Wand configuration
+#number of wand=2
+## wand positionning
+#wand\0\device num=0
+#wand\0\sensor=1
+## wand interaction
+#wand\1\device num=1
+#wand\1\sensor=1
+#button mapping\flystick=is900
+
+## NB: please consider as well the modification of the eye positions (left/right eye offset)
+## NB2: furthermore, comment the flystick2 avatar in the 3D object section in the xml file and uncomment the one of the is900 avatar
+
+############################################################################
+#           4.1.i : PPTWand vrpn tracking
+## Tracking configuration
+#NB: 2 vrpn connections are set up: one for the button and one for the tracking position (names to be updated and IPs)
+#vrpn\number of devices=2
+#vrpn\device 0\device name=PPT0@192.168.0.1:3883
+#vrpn\device 1\device name=PPT_WAND3@192.168.0.1:8945
+#
+## Modification of tracking information to comply TechViz setup
+#coef tracker to univ\x=1
+#coef tracker to univ\y=1
+#coef tracker to univ\z=1
+#tracker axe in univ\x=x
+#tracker axe in univ\y=y
+#tracker axe in univ\z=-z
+##tracker rotation axe in univ\x=x
+##tracker rotation axe in univ\y=y
+##tracker rotation axe in univ\z=z
+#offset tracker to univ\x=0
+#offset tracker to univ\y=0.0
+#offset tracker to univ\z=0.0
+#
+## Neutral position of the head
+## HOWTO setup
+## a: Activate the tracking info on screen
+## b: Handle the Target straight to the front screen
+## c: Note the in screen value (quat x,y,z,t)
+## d: Put the values x,y,z,t in these parameters (dtrackbody 0 in this example)
+##neutral direction\device devicename0@192.168.0.200\sensor 0\x=0
+##neutral direction\device devicename0@192.168.0.200\sensor 0\y=0
+##neutral direction\device devicename0@192.168.0.200\sensor 0\z=1
+##neutral direction\device devicename0@192.168.0.200\sensor 0\t=0
+#
+## Head configuration
+#number of head=1
+#head\0\device num=0
+#head\0\sensor=0
+#
+## Wand configuration
+#number of wand=2
+# wand positionning
+#wand\0\device num=0
+#wand\0\sensor=2
+# wand interaction
+#wand\1\device num=1
+#wand\1\sensor=2
+#button mapping\flystick=PPTWand
+
+############################################################################
+# 			4.1.j : CyberGlove
+## CyberGlove configuration
+#
+## define the number of cyberglove devices
+#cyberglove\number of devices=1
+#
+## define the tracker associated to the glove
+#cyberglove\0\tracker\device type=dtrackbody
+#cyberglove\0\tracker\sensor=1
+#
+## define the glove parameters
+#cyberglove\0\location=localhost:12345
+#cyberglove\0\interface=com3:115200
+
+
+############################################################################
+#           4.2 : NON TRACKED DEVICE
+# use to activate spacemouse
+use space mouse=0
+space mouse mode fly=0
+
+space mouse min value=0.1
+
+# sensitivity of navigation devices
+flystick sensitivity rotation=0.01
+flystick sensitivity translation=0.05
+
+
+# use to activate windows pad PC
+use joystick=1
+
+# Button Mapping
+button mapping\spacemouse=logitech
+#button mapping\spacemouse=logitechF710
+#button mapping\spacemouse=thrustmaster
+#button mapping\spacemouse=spacepilot
+#button mapping\spacemouse=XBox360
+#button mapping\spacemouse=PS2
+#joystick min value=0.30
+
+# use the virtual space mouse for the explore mode
+virtual space mouse\enable=1
+virtual space mouse\data source=wand 0
+virtual space mouse\translation min=0.01
+virtual space mouse\translation max=0.5
+virtual space mouse\translation speed=1.5
+virtual space mouse\rotation min=10
+virtual space mouse\rotation max=91
+virtual space mouse\rotation speed=60
+##to active constraints in the explore mode
+#virtual space mouse\constraint x=1
+#virtual space mouse\constraint y=1
+#virtual space mouse\constraint z=1
+#virtual space mouse\constraint rx=1
+#virtual space mouse\constraint ry=1
+#virtual space mouse\constraint rz=1
+
+############################################################################
+#
+#   SECTION 5   : ADVANCED CUSTOM VR SETUP
+#
+############################################################################
+#           5.1 : GUI
+draw GUI=0
+show GUI=0
+# enable display without tracking
+only fullscreen=0
+draw fps=0
+draw vector count=0
+
+############################################################################
+#           5.2 : VISUALIZATION PARAMETERS
+#
+near plane=0.1
+far plane=10000
+correct 2D=1
+correct 3D=1
+force perspective=1
+stereo scale=1000
+scale convergence=0
+reference convergence=0.5
+depth adjustment=0
+
+# if needed to invert eyes
+invert eyes=0
+
+# relocation of 3D models
+link positions=1
+
+# if using tracked relocation
+tracked link positions=0
+# link positions device=dtrackbody
+# link positions sensor=2
+
+#link positions\application\x=0
+#link positions\application\y=0
+#link positions\application\z=0
+#link positions\application\q\x=0
+#link positions\application\q\y=0
+#link positions\application\q\z=0
+#link positions\application\q\w=1
+
+link positions\tracking\x=0
+link positions\tracking\y=0
+link positions\tracking\z=0
+link positions\tracking\rx=-90
+link positions\tracking\ry=0
+link positions\tracking\rz=0
+
+# Eye separation without tracking
+eye axe\x=0.062
+eye axe\y=0.0
+eye axe\z=0.0
+
+center rotation center=1
+
+# analog parameters for navigation devices
+analog power=2
+
+swap on vsync=1
+
+# add TechViz lights
+enable light 1=0
+light reference=2
+
+light avatar size=0.0
+light 1\ambient=0.2
+light 1\specular=.7
+light 1\diffuse=1
+light 1\pos\x=0
+light 1\pos\y=1
+light 1\pos\z=1000
+light 1\color\green=1
+light 1\color\red=1
+light 1\color\blue=1
+
+enable light 6=0
+light 6\ambient=0.2
+light 6\specular=.7
+light 6\diffuse=1
+light 6\pos\x=0
+light 6\pos\y=1
+light 6\pos\z=1000
+light 6\color\green=1
+light 6\color\red=1
+light 6\color\blue=1
+
+############################################################################
+#           5.3 : PER APPLICATION DEFAULT PARAMETERS
+# rhinoceros
+application rhino4\correct 3D=3
+application rhino4\force perspective=1
+application rhino4\stereo scale=100
+
+# deep exploration
+application deep exploration\stereo scale=1000
+
+# JT2GO - visview
+application visview\stereo scale=10
+
+# Solidedge
+application edge\stereo scale=1
+
+# emplant
+application tune\correct 3D=3
+application tune\stereo scale=1
+
+# Lumiscaphe
+application Patchwork3D\stereo scale=1
+application Patchwork3D\correct 3D=3
+
+# Catia
+application CNEXT\stereo scale=1000
+application CNEXT\correct 3D=3
+#application CNEXT\scale convergence=1
+
+# Icem Viewer
+application uim\stereo scale=1000
+
+# RTT
+application rttdeltaview\link positions\tracking\rx=-90
+application rttdeltaview\stereo scale=1000
+
+# ProE
+application xtop\stereo scale=1000
+application xtop\force perspective=1
+application xtop\correct 3D=2
+
+# seemage player
+application seemageplayer\stereo scale=1000
+
+# 3DVIA Composer Player
+application 3DVIAPlayer\stereo scale=1000
+
+# 3DVIA Composer
+application 3DVIAComposer\stereo scale=1000
+
+# studio tools
+application alias\stereo scale=100
+application alias\correct 3D=3
+
+# showcase
+application showcase\correct 3D=2
+application showcase\stereo scale=100
+application showcase\force perspective=1
+
+# solidworks
+application sldworks\correct 3D=3
+application sldworks\stereo scale=1
+
+# smart plant review
+application spr\stereo scale=1
+application spr\force perspective=1
+
+# opticore r12
+application realizerbinary\stereo scale=1
+application realizerbinary\correct 3d=1
+application realizerbinary_3gb\stereo scale=1
+application realizerbinary_3gb\correct 3d=3
+
+# googleearth
+application googleearth\link positions=0
+application googleearth\stereo scale=0.000001
+application googleearth\correct 3D=3
+
+# secondlife
+application secondlife\stereo scale=1
+application secondlife\correct 3D=3
+application secondlife\force perspective=0
+
+# quake4
+application quake4\link positions=0
+application quake4\stereo scale=1
+application quake4\correct 3D=1
+
+# 3DSMAX
+application 3DSmax\stereo scale=100
+application 3DSmax\correct 3D=2
+
+# inventor
+application inventor\stereo scale=100
+application inventor\correct 3D=3
+application inventor\clear control=1
+application inventor\force perspective=1
+
+#inventor viewer
+application inventorview\correct 3D=3
+application inventorview\stereo scale=100
+application inventorview\force perspective=1
+
+# pymol
+application pymol\stereo scale=1
+
+# vmd
+application vmd\stereo scale=1
+
+# paraview
+application paraview\force perspective=1
+
+# division mockup
+application vcvisual\stereo scale=1
+
+# barco simcad
+application bspsimcad\force perspective=1
+application bspsimcad\stereo scale=1
+
+# vrml viewer
+# model dependant
+application vrmlview\stereo scale=1
+#application vrmlview\scale convergence=1
+
+# fieldview
+application atvbin\stereo scale=10
+
+# 3Dview, Medical application
+application 3dview\stereo scale=100
+
+# enliten 7 & 8, Ensight 9 Windows
+application enliten16\stereo scale=1
+application enliten\stereo scale=1
+application ens90cl\stereo scale=1
+application ens82cl\stereo scale=1
+
+# maya
+application maya\stereo scale=100
+application maya\correct 3D=2
+
+# fluent 3D 6.3.26
+application fl6326s\stereo scale=1
+application fl6326s\correct in modelview=1
+
+# revit
+application revit\force perspective=1
+application revit\stereo scale=10
+application revit\correct 3D=3
+
+# Navisworks
+application roamer\stereo scale=1
+application roamer\correct 3D=3
+
+# enviro
+
+# UG NX
+application ugraf\stereo scale=100
+application ugraf\correct 3D=1
+
+# productview
+
+# STK AGI Viewer
+application AgUiApplication\stereo scale=1000
+application AgUiApplication\correct 3D=2
+
+#Google Sketchup
+application SketchUp\correct 3D=2
+application SketchUp\stereo scale=1000
+application SketchUp\add lights=0
+
+#Blender
+application blender\stereo scale=10
+application blender\correct 3D=3
+application blender\direct display=1
+
+#MeVisLab
+application MeVisLab\stereo scale=100
+application MeVisLab\correct 3D=1
+
+# SMT VuPAK
+application tks\force perspective=1
+application tks\stereo scale=10
+
+# Avizo
+# model dependent
+#application avizomain\stereo scale=1
+
+# FlederMaus, Iview4D
+application Fledermaus\stereo scale=10
+application Fledermaus\tz25=200
+application iView4D\stereo scale=10
+application iView4D\tz25=200
+
+# Roxar RMS
+application rms\correct 3D=3
+
+# Tecplot
+application tecplotrs.bin\correct 3D=3
+
+# Tecplot 360
+application tec360\correct 3D=3
+
+# GeoProbe
+application gpmainlx64\correct 3D=2
+
+# Sim Reservoir
+application simreservoirapp\correct 3D=3
+
+# GoCad
+application gocad_run\correct 3D=2
+
+# VoxelGeo2
+
+# Tempest
+application java.tempest\correct 3D=2
+
+# 3D Canvas
+application SolidGeo.1\correct 3D=3
+
+# AssetView
+application java.assetview\correct 3D=2
+
+# OpenVision 3dViewer
+application sc3_64\correct 3D=3
+
+# Autocad
+application acad\correct 3D=3
+
+# Eon Viewer
+application EonViewer\stereo scale=1
+application EonViewer\add lights=0
+application EonViewer\tz13=0x4020010
+application EonViewer\tz15=0
+
+#Moldflow communicator 2011
+application mfresview\stereo scale=1
+application mfresview\correct 3D=3
+
+# EDrawings 2010
+#application EModelViewer\stereo scale=0.1
+
+#Ansys CFD viewer
+application viewer_ogl\stereo scale=1
+application viewer_ogl\correct 3D=3
+
+# FleXSim
+application flexsim\stereo scale=1
+application flexsim\correct 3D=2
+
+# Materials Studio
+application matstudio\stereo scale=1
+application matstudio\tz13=20000
+
+# WorldWind
+application java.worldwind\tz13=0x8000000
+application java.worldwind\stereo scale=1000
+
+# Bonelab
+application App\stereo scale=100
+
+# Design Review
+application DesignReview\stereo scale=1
+application DesignReview\correct 3D=2
+
+# Modo
+application modo\correct 3d=3
+application modo\stereo scale=10
+
+# OpendTect
+application odmain\correct 3D=3
+application odmain\stereo scale=10000
+
+# Dymola
+application Dymola\stereo scale=1
+
+# 3DXML Player
+application 3DXMLPlayer\correct 3D=2
+
+# Walkinside
+application WalkinsideNet2\stereo scale=1
+
+# Visit
+application viewer\stereo scale=1
+
+# KineoPathPlanner
+application KineoPathPlanner\stereo scale=1000
+application KineoPathPlanner\server local=0
+application KineoPathPlanner\force clear=0xFFFFFF
+
+# Houdini
+application hmaster\stereo scale=1
+
+# Aveva Marine
+application marodes\stereo scale=1000
+
+# CET Designer
+application cetrt.exe\stereo scale=1
+
+# HyperView Player
+application hvp\server local=0
+application hvp\correct 3D=3
+
+# STAR-View+
+application java.STAR-View+\stereo scale=1
+
+# Allplan
+application allplan_2012\stereo scale=1000
+
+############################################################################
+#           DO NOT MODIFY DEFAULT PARAMETERS
+############################################################################
+
+# pour VA tz13=400000
+tz13=0x4000010
+#tz27=10000000
+#tz24=1500000000
+
+# rhinoceros
+application rhino4\correct in modelview=1
+application rhino4\server local=0
+application rhino4\force perspective=0
+
+# deep exploration
+application deep exploration\tz13=0x4000000
+
+# visview
+
+# Solidedge
+
+# emplant
+application tune\normal=1
+application tune\tz20=9
+
+# Lumiscaphe
+application Patchwork3D\tz13=0x302000
+#application Patchwork3D\tz15=512
+application Patchwork3D\correct in modelview=2
+
+# Icem Viewer
+
+# RTT
+application rttdeltaview\autostereo\scaleX=1
+application rttdeltaview\autostereo\scaleY=1
+application rttdeltaview\aa samples=1
+
+# ProE
+application xtop\server local=0
+application xtop\force clear=0x00F8FF
+application xtop\clear control=1
+application xtop\tz13=0xC200000
+application xtop\enliten=1
+application pglclock\server local=0
+application pglclock\control mouse pointer=0
+
+# Seemage player
+application seemageplayer\force clear=0x68838B
+application seemageplayer\clear control=1
+
+# 3DVIA Composer Player
+application 3DVIAPlayer\force clear=0x68838B
+application 3DVIAPlayer\clear control=1
+application 3DVIAPlayer\server local=0
+
+# 3DVIA Composer
+application 3DVIAComposer\force clear=0x68838B
+application 3DVIAComposer\clear control=1
+application 3DVIAComposer\server local=0
+application 3DVIAComposer\correct in modelview=2
+application 3DVIAComposer\correct 3D=3
+application 3DVIAComposer\force perspective=0
+
+# Alias studio tools
+application alias\enable light 1=0
+application alias\server local=0
+application alias\correct in modelview=4
+application alias\force clear=0xCCCCCC
+application splash\server local=0
+application awtessd\server local=0
+application sysinfocheck\server local=0
+
+# showcase
+application showcase\correct in modelview=2
+application showcase\clear control=1
+application showcase\tz13=0x4200000
+application showcase\disable joystick in application=1
+
+# showcase 2012+
+#application showcase\tz13=0x4220000
+#application showcase\tz98=1
+application showcase_d3d\tz13=0x20000
+
+# Catia
+application CNEXT\normal=1
+application CNEXT\tz13=0x1004200010
+application CNEXT\vrml scale=1
+## TechViz Engine Control
+application CNEXT\direct display=1
+application CNEXT\server local=0
+#application CNEXT\disable remote display=0
+## Huge model parameters, more than 100M triangles
+#application cnext\tz27=100000
+#application cnext\direct display=1
+#application CNEXT\server local=0
+#application cnext\tz24=3500000000
+#application cnext\interaction\accuracy=3
+
+# solidworks
+application sldworks\correct in modelview=0
+application sldworks\interaction=0
+#application sldworks\server local=0
+application sldworks\tz13=0x10
+# version 2006, 2007
+#application sldworks\tz30=1
+#application sldworks\tz13=0x1000000010
+# version 2008
+application sldworks\tz38=1
+# version 2009, 2010, 2011
+application sldworks\tz38=0
+application sldworks\tz28=0
+application sldworks\tz78=1
+
+
+# smart plant review
+application spr\correct in modelview=1
+application spr\force clear=0x66FFFF
+application spr\add lights=0
+application spr\tz13=0x8000010
+application spr\server local=0
+application spr\direct display=1
+
+# opticore r12
+application realizerbinary\clear control=1
+application realizerbinary_3GB\clear control=1
+application realizerbinary\correct in modelview=2
+application realizerbinary_3GB\correct in modelview=2
+
+# googleearth
+application googleearth\scale convergence=1
+application googleearth\reference convergence=0.001
+application googleearth\host *\tz13=0x8020000
+application googleearth\tz13=0x8020000
+application googleearth\add lights=0
+application googleearth\server local=0
+application googleearth\axe matrix=1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.0001 1
+application googleearth\interaction=0
+application googleearth\far plane=100000
+application googleearth\tz27=10
+
+# secondlife
+application secondlife\correct in modelview=0
+application secondlife\tz13=0x8000000
+application secondlife\server local=0
+application secondlife\link positions=0
+application secondlife\force clear=0
+application secondlife\interaction=0
+
+# quake4
+
+# 3DSMAX
+application 3DSmax\tz13=0x8200000
+application 3DSmax\correct in modelview=5
+application 3DSmax\link light position=1
+
+# vmd
+application vmd\server local=0
+application vmd\clip control=1
+application vmd\tz13=0xC000010
+
+# paraview
+application paraview\correct in modelview=2
+application paraview\force clear=0
+
+# division mockup
+application vcvisual\tz13=0x4308000
+application vcvisual\tz17=100000
+application dvisegui\disable external control=1
+
+# barco simcad
+application bspsimcad\correct in modelview=0
+application bspsimcad\force clear=0
+
+# 3DVIEW
+application 3dview\avatar=0
+application 3dview\link light position=1
+application 3dview\force clear=0
+
+# enliten
+application enliten16\enliten=1
+application enliten16\force clear=0
+application enliten\enliten=1
+application enliten\force clear=0
+application enliten\direct display=1
+application enliten\server local=0
+application ens90cl\enliten=1
+application ens90cl\force clear=0
+application ens90cl\correct in modelview=6
+application ens92cl\correct in modelview=6
+application ens82cl\force clear=0
+application ens82cl\correct in modelview=5
+
+# maya
+application maya\link light position=1
+application maya\tz13=0xC000010
+
+# fluent 3D 6.3.26
+application fl6326s\correct in modelview=1
+#application fl6326s\clear control=1
+#application fl6326s\force clear=0x00CCFF
+
+# revit
+application revit\correct in modelview=0
+application revit\normal=1
+application revit\link light position=1
+application revit\server local=0
+application revit\add lights=1
+
+# Navisworks
+application roamer\correct in modelview=2
+application roamer\normal=1
+application roamer\link light position=1
+application roamer\server local=0
+application roamer\add lights=1
+application roamer\force clear=0
+application roamer\direct display=1
+application roamer\tz24=3500000000
+application roamer\interaction\accuracy=3
+application roamer\tz80=1
+# set tz81 to 1 for navisworks 2012 and 0 for 2010/2011
+application roamer\tz81=1
+
+
+# enviro
+application wxenviro\server local=0
+
+# NX
+application ugraf\clip control=1
+application ugraf\force perspective=0
+## Huge model parameters
+#application ugraf\tz25=250
+#application ugraf\tz13=0x4000010
+#application ugraf\tz24=3500000000
+
+# productview
+application pview\tz13=0x4000000000
+application pview\stereo scale=1000
+application pview\force clear=0x0000FF
+application pview\force perspective=0
+application pview\add lights=0
+
+# productview 9
+application productview\stereo scale=1
+application productview\force clear=0x0000FF
+application productview\interaction\aggressive collisions=0
+application productview\force perspective=0
+application productview\add lights=0
+application productview\correct in modelview=7
+
+#STK AGI Viewer
+application AgUiApplication\correct in modelview=1
+application AgUiApplication\tz13=0x80020000
+application AgUiApplication\force perspective=0
+application AgUiApplication\tz33=1
+application AgUiApplication\tz48=1
+application AgUiApplication\tz27=10
+application AgUiApplication\copypix=1
+application AgUiApplication\enliten=1
+application AgUiApplication\near plane=-1
+application AgUiApplication\far plane=-1
+application AgUiApplication\link positions=0
+
+#Google Sketchup
+application SketchUp\tz13=0x8000000
+application SketchUp\correct in modelview=2
+
+#Blender
+application blender\correct in modelview=0
+
+#vlc
+application vlc\show gui=0
+
+# Mevislab
+application MeVisLab\tz13=0x8000000
+
+# SMT VuPAK
+application tks\clip=0
+application tks\tz29=2
+application tks\correct in modelview=5
+#application tks\link positions\tracking\z=-30
+
+# AVIZO
+application avizomain\correct in modelview=6
+application avizomain\tz13=0x84000000
+application avizomain\link light position=1
+application avizomain\force clear=1
+#application avizomain\force clear=0x0000FF
+
+# AMIRA
+application amiramain\correct in modelview=6
+application amiramain\link light position=1
+
+# Virtools
+application devr\axe matrix=1 0 0 0 0 -1 0 0 0 0 1 0 0 0 0 1
+application devr\correct in modelview=2
+application devr\link light position=1
+application devr\tz13=0xC000010
+
+# Virtools VRPlayer
+application VRPlayer\axe matrix=1 0 0 0 0 -1 0 0 0 0 1 0 0 0 0 1
+application VRPlayer\correct in modelview=2
+application VRPlayer\link light position=1
+application VRPlayer\tz13=0xC000010
+
+# DTPlayer
+application dtplayer\axe matrix=1 0 0 0 0 -1 0 0 0 0 1 0 0 0 0 1
+application dtplayer\correct in modelview=2
+application dtplayer\link light position=1
+
+# Petrel
+application petrel\tz13=0x208028000
+application petrel\server local\tz13=0x208028000
+application petrel\host *\tz13=0x208008000
+application petrel\force clear=1
+
+# Tribon
+application guidm\tz13=0x80000000
+application guidm\add lights=0
+application guidm\clip control=1
+
+# Microstation
+application ustation\correct in modelview=0
+
+# MEDSUMO
+application medsumo\tz13=0x20000
+
+# Madymo
+application madpost\clip control=1
+
+# Brain Explorer
+application BrainExplorer\static head\x=0
+application BrainExplorer\static head\y=0
+application BrainExplorer\force perspective=1
+application BrainExplorer\stereo scale=100
+
+# recurdyn
+application recurdyn\stereo scale=1000
+application recurdyn\tz13=0x80000000
+application recurdyn\server local\tz13=0
+application recurdyn\correct 3D=2
+
+#inventor
+application inventor\server local=0
+application inventor\correct in modelview=2
+# tz36 is needed for Inventor 2010 or later. Ask TechViz support.
+#application inventor\tv36=
+
+#inventor viewer
+application inventorview\server local=0
+application inventorview\correct in modelview=2
+
+# pymol
+application pymol\force perspective=0
+application pymol\correct 3D=2
+
+# ArcGlobe
+application ArcGlobe\tz13=0xC000010
+application ArcGlobe\correct in modelview=0
+application ArcGlobe\stereo scale=0.01
+
+# ArcReader
+application ArcReader\tz13=0xC000010
+application ArcReader\correct in modelview=6
+application ArcReader\server local=0
+
+# MineSet
+application scatte~1.exe\stereo scale=100
+application scatte~1.exe\server local=0
+application treeviz\stereo scale=100
+
+# MPlayer
+application mplayer\server local=0
+application mplayer\correct 3d=0
+application mplayer\tz13=0x4100000
+
+# osgSceneViewer
+application osgsceneviewer\link light position=1
+
+# FlederMaus, Iview4D
+application Fledermaus\force clear=1
+application Fledermaus\server local=0
+application iView4D\force clear=1
+application iView4D\server local=0
+
+# Perspectix Px5
+application isomer\correct 3D=3
+application isomer\force clear=0xE0E0E0
+application isomer\server local\force clear=-1
+
+# LMS
+application lmsvirtuallab.exe\correct 3D=3
+
+# Roxar RMS
+application rms\force perspective=0
+application rms\tz29=2
+application rms\tz33=1
+application rms\tz13=0x80000000
+
+# Tecplot RS
+# Linux
+application tecplotrs.bin\tz29=2
+application tecplotrs.bin\tz33=1
+application tecplotrs.bin\tz13=0x80000000
+application tecplotrs.bin\force clear=0
+# Windows
+application tecplotrs\tz29=2
+application tecplotrs\tz33=1
+application tecplotrs\server local=0
+
+# Tecplot 360
+application tec360\server local=0
+application tec360\tz29=2
+application tec360\tz33=1
+
+# GeoProbe
+application gpmainlx64\force perspective=0
+application gpmainlx64\correct in modelview=2
+application gpmainlx64\tz29=2
+application gpmainlx64\tz33=1
+application gpmainlx64\tz13=0x88000000
+
+# Sim Reservoir
+application simreservoirapp\force perspective=0
+application simreservoirapp\tz13=0x88000000
+
+# GoCad
+application gocad_run\force perspective=0
+application gocad_run\tz29=2
+application gocad_run\tz33=1
+application gocad_run\tz13=0x80000000
+
+# VoxelGeo2
+application VoxelGeo2.1\draw gui=0
+application VoxelGeo2.1\force perspective=0
+application VoxelGeo2.1\tz13=0x80000000
+application VoxelGeo2.1\tz51=1
+
+# Tempest
+application java.tempest\correct in modelview=2
+application java.tempest\force perspective=0
+application java.tempest\tz29=2
+application java.tempest\tz33=1
+application java.tempest\tz13=0x80000000
+
+# 3D Canvas
+application SolidGeo.1\correct in modelview=2
+application SolidGeo.1\force perspective=0
+application SolidGeo.1\tz29=2
+application SolidGeo.1\tz33=1
+application SolidGeo.1\tz13=0x80000000
+
+# AssetView
+application java.assetview\force perspective=0
+application java.assetview\correct in modelview=2
+application java.assetview\tz33=1
+application java.assetview\tz13=0x80000000
+
+# OpenVision 3dViewer
+application sc3_64\force clear=1
+application sc3_64\force perspective=0
+application sc3_64\correct in modelview=1
+application sc3_64\tz29=2
+application sc3_64\tz33=1
+application sc3_64\tz13=0x80000000
+application sc3_64\tz47=1
+
+# VAPP
+application vapp\force clear=0x68BCC5
+application vapp\tz13=0x8000000
+application vapp\server local=0
+application vapp\stereo scale=1000
+application vapp\add lights=0
+application vapp\link positions\tracking\rx=0
+application vapp\link positions\tracking\ry=180
+# Parameter for Application Navigation or link position=0
+# application vapp\axe matrix=-1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+# Parameter for TechViz Navigation or link position=1
+application vapp\axe matrix=-1 0 0 0 0 1 0 0 0 0 -1 0 0 0 0 1
+
+# VCollab Presenter
+application Vcollab Presenter\link positions\tracking\rx=0
+application Vcollab Presenter\correct 3D=3
+application Vcollab Presenter\background color=0.81 0.81 1
+application Vcollab Presenter\tz28=0
+
+# VCollab Pro
+application VcollabPro\link positions\tracking\rx=0
+application VcollabPro\correct 3D=3
+application VcollabPro\background color=0.81 0.81 1
+application VcollabPro\tz28=0
+
+# Aveva Review Share
+application reviewshare\correct in modelview=2
+application reviewshare\link positions\tracking\rx=0
+application reviewshare\stereo scale=1
+application reviewshare\link positions=1
+application reviewshare\otrack auto tracking=1
+application reviewshare\link light positions=1
+
+# GNS Animator Viewer
+application Animator3_Viewer\clip control=1
+
+# Abaqus
+application ABQcaeK\tz13=0x8000000
+application ABQcaeK\correct 3D=2
+application ABQcaeK\server local=0
+application ABQcaeK\disable blend=1
+
+# Abaqus Viewer
+application ABQvwrK\tz13=0x8000000
+application ABQvwrK\correct 3D=2
+application ABQvwrK\server local=0
+application ABQvwrK\disable blend=1
+
+# Motion Builder
+application motionbuilder\add lights=0
+application motionbuilder\tz13=0x8000000
+
+# Schrodinger Maestro
+application maestro.EXE\interaction=0
+application maestro.EXE\stereo scale=10
+
+# Dipro VridgeR
+application vstudio\stereo scale=1
+application vstudio\link light position=1
+
+#Moldflow communicator 2011
+application mfresview\correct in modelview=2
+
+# EDrawings 2010
+application EModelViewer\correct in modelview=2
+application EModelViewer\link light position=1
+
+#Ansys CFD viewer
+application viewer_ogl\force clear=0x00CCFF
+application viewer_ogl\tz13=0x84000010
+application viewer_ogl\server local=0
+
+# FleXSim
+application flexsim\server local=0
+application flexsim\tz27=100000
+application flexsim\force perspective=0
+application flexsim\link positions\tracking\x=0
+application flexsim\link positions\tracking\y=0
+application flexsim\link positions\tracking\z=0
+application flexsim\link positions\tracking\rx=0
+application flexsim\link positions\tracking\ry=0
+application flexsim\link positions\tracking\rz=0
+
+# AVEVA Review
+application review\server local=0
+application review\tz13=0x84000010
+
+# Slam 6d
+application show\stereo scale=100
+
+# Design Review
+application DesignReview\force perspective=1
+application DesignReview\correct in modelview=2
+application DesignReview\axe matrix=-1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+
+# Sener Foran Viewer
+application fviewer\link positions\tracking\rx=0
+application fviewer\interaction=0
+application fviewer\direct display=1
+application fviewer\tz13=0x4020010
+application fviewer\tz27=10
+application fviewer\tz24=4000000000
+application fviewer\tz25=2000
+application fviewer\tz15=4000
+application fviewer\tz68=1
+application fviewer\server local=0
+
+# Modo
+application modo\link positions\tracking\x=0
+
+# IGRIP
+application vmap\tz13=0x4004010
+
+# OpendTect
+application odmain\server local=0
+application odmain\correct in modelview=4
+application odmain\tz13=0x84000000
+application odmain\link positions=0
+application odmain\tz27=100
+
+# Biosphere3D
+application Biosphere3D\stereo scale=1
+application Biosphere3D\correct 3D=2
+application Biosphere3D\server local=0
+application Biosphere3D\tz13=0x8020000
+application Biosphere3D\add lights=0
+application Biosphere3D\interaction=0
+application Biosphere3D\link positions=0
+
+# KMas
+application kdekstop\force perspective=1
+application kdesktop\correct 3D=3
+application kdesktop\stereo scale=1
+application kdesktop\clear control=1
+
+# Cadenas PartDataManager
+application pdatamgr\force clear=0xFFFFFF
+application pdatamgr\stereo scale=1000
+
+# Unity
+# Change "appart" to your process name
+application appart\stereo scale=1
+application appart\correct 3D=3
+application appart\tz20=44
+application appart\force perspective=0
+application appart\link light position=1
+application appart\tz13=0x8000000
+application appart\link positions=1
+application appart\link positions\tracking\x=0
+application appart\link positions\tracking\y=0
+application appart\link positions\tracking\z=0
+application appart\link positions\tracking\rx=0
+application appart\link positions\tracking\ry=0
+application appart\link positions\tracking\rz=0
+application appart\axe matrix=1 0 0 0 0 1 0 0 0 0 -1 0 0 0 0 1
+
+# Unity Shooter Demo
+application shooter\stereo scale=1
+application shooter\correct 3D=3
+application shooter\tz20=44
+application shooter\force perspective=0
+application shooter\link light position=1
+application shooter\tz13=0x8000000
+application shooter\link positions=0
+application shooter\force clear=0xFFFFFF
+application shooter\correct in modelview=2
+application shooter\axe matrix=1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
+application shooter\server local=0
+
+# Celestia
+application celestia\correct 3D=3
+application celestia\tz13=0x8000000
+application celestia\server local=0
+
+# Dymola
+application Dymola\server local=0
+
+# Walkinside
+application WalkinsideNet2\tz13=0x4020010
+application WalkinsideNet2\tz24=4000000000
+application WalkinsideNet2\tz25=1000
+application WalkinsideNet2\direct display=1
+application WalkinsideNet2\tz78=10000
+application WalkinsideNet2\link positions\tracking\rx=0
+application WalkinsideNet2\force clear=0
+
+# Visit
+application visit\server local=0
+application viewer\server local=0
+application gui\server local=0
+application engine_ser\server local=0
+
+# Houdini
+application hmaster\tz20=35
+application hmaster\correct in modelview=5
+application hmaster\force perspective=0
+
+# Aveva Marine
+application marodes\server local=0
+application marodes\direct display=1
+application marodes\tz13=0x8000000
+application mon\disable external control=1
+application mon\server local=0
+
+# Tekla BimSight
+application BIMsight\tz31=1
+application BIMsight\force clear=0xFFFFFF
+application BIMsight\correct 3d=3
+application BIMsight\tz13=0x8020000
+application BIMsight\stereo scale=1
+application BIMsight\tz28=0
+application BIMsight\server local=0
+application BIMsight\direct display=1
+application BIMsight\disable remote display=0
+application BIMsight\tz24=512000000
+application BIMsight\clear control=1
+
+# HyperView Player
+application hvp\direct display=1
+application hvp\interaction=0
+application hvp\tz78=1
+application hvp\clip control=1
+application hvp\background color=0.81 0.81 1
+#application hvp\socket size=300000000
+#application hvp\tz24=6000000000
+
+# STAR-View+
+application java.STAR-View+\stereo scale=1
+application java.STAR-View+\force perspective=0
+application java.STAR-View+\stereo scale=1
+application java.STAR-View+\background color=0.81 0.81 1
+
+# CET
+application cetrt.exe\tz13=0x8000000
+application cetrt.exe\direct display=1
+
+# Allplan
+application allplan_2012\tz13=0x4020010
+application allplan_2012\enliten=1
+
+# Cinema 4D
+application cinema 4d\clear control=1
+application cinema 4d\force clear=0x68838B
+application cinema 4d\correct 3D=3
+application cinema 4d\correct in modelview=2
+application cinema 4d\link positions\tracking\rx=0
+
+# COMSOL Multiphysics
+application comsol\correct 3D=2
+application comsol\correct in modelview=5
+application comsol\stereo scale=0.1
+application comsol\force clear=0
+application comsol\server local=0
+application comsol\enliten=1
+application comsol\tz13=0x4020010
+
+
+############################################################################
+#           5.4 : SKELETON
+
+#skeleton\definition=skeleton.xml
+tracking lost=800000
+
+############################################################################
+#           5.5 : RECORD/REPLAY
+
+replay\enable playing\navigation=1
+replay\enable playing\wand=1
+replay\enable playing\virtualassembly=1
+replay\enable playing\head=0
+replay\enable playing\sound=1
+replay\enable playing\comment=1
+replay\enable playing\clipplane=1
+
+replay\enable exporting\navigation=1
+replay\enable exporting\wand=1
+replay\enable exporting\virtualassembly=1
+replay\enable exporting\head=1
+replay\enable exporting\sound=1
+replay\enable exporting\comment=1
+replay\enable exporting\clipplane=1
+
+replay\replaymode=continuous
+replay\enable use\sound=0
+
+replay\loopmode=loop none
+replay\exporter avi\show codec dialog box=always
+replay\export type=avi
+replay\exporter avi\width=960
+replay\exporter avi\height=540
+replay\exporter avi\fixed size=1
+replay\exporter avi\vertical fov=50.625
+replay\exporter avi\horizontal fov=90
+replay\exporter avi\stereo\convergence distance=2
+replay\exporter avi\stereo=0
+
+# Bookmarks & Record
+bookmarks\waitTime=1.0
+bookmarks\velocity=1.0
+
+############################################################################
+#           5.6 : FUSION
+
+#fusion=auto
+
+# Fast fusion - Requires TVZRlib
+#tz46=1
+
+# Supersampling
+#fusion ss=1.5
+
+# Transparency options
+#fusion\enable translucency=1
+#fusion\translucent opacity=0.5
+#background color\r=1.0
+#background color\g=1.0
+#background color\b=1.0
+#background color\a=1.0
+
+
+############################################################################
+#           5.7 : VIRTUAL ASSEMBLY
+
+# virtual assembly product structure
+#product structure\connector port=1338
+
+############################################################################
+#           5.8 : TVZLIB
+
+tvzlib version=2
+# tvzlib port=1337
+
+
+############################################################################
+#   SECTION 6   : DO NOT MODIFY PARAMETERS
+#           6.2 : DO NOT MODIFY VR PARAMETERS
+# local server
+server local=0
+
+# Disable otrack verbose in console
+# tracking info on console=0
+
+# disable navigation constraints
+# 1 is x translation, 2 is y t., 4 is  z t.
+# 8 is rotation x, 16 is r. y, 32 is r. z
+# example: vertical constraints is 42 = 2 + 8 + 32
+constraints=0
+
+# Tracking info on screen
+tracking info on screen\position=middle span
+tracking info on screen\size=4
+
+add lights=1
+transparent stereo=1
+multi application=1
+# socket size=-1
+# socket send=-1
+# socket recv=-1
+socket size=10000000
+tz27=10
+
+normal=1
+
+## Level of Detail
+#server local\lod level=0
+#server local\pixel culling=0
+#host *\pixel culling=0
+#host *\lod level=0
+#host *\lod threshold=20
+
+# Snapshot
+snapshot\output\fixed_size=1
+snapshot\output\width=1280
+snapshot\output\height=1024
+snapshot\output\directory=.
+snapshot\output\format=png
+snapshot\output\prefixname=tvz_snapshot
+snapshot\output\stereo\convergence distance=2
+snapshot\bounds thickness=0.02
+snapshot\head plane dist=1
+snapshot\screen image=0
+
+
+# Camera
+number of camera_texture=1
+camera_texture\0\name=wand 0
+camera_texture\0\diagonal fov=60
+camera_texture\0\ratio fov=2.3
+captors\device=none
+
+# Back annotations
+comment\label\shape=dodecahedron
+comment\link\thickness=.002
+comment\link\color\red=0
+comment\link\color\green=1
+comment\link\color\blue=0
+
+# Activate interaction
+interaction=1
+interaction\accuracy=2
+# choose from single or multiple
+interaction\mode=multiple
+# enable collisions: cannot be changed at execution time
+interaction\collisions=1
+# sets the width of the collisions lines (1.0 as a default)
+interaction\collisions size=10.0
+# switch on/off the display of the group bounding box (1 as a default)
+interaction\display group box=1
+# how handle groups
+interaction\use multigroup=1
+#disable collisions of the avatars against the model
+avatar collisions\enable=0
+
+# snap parts to models
+snappart=1
+snappart\max distance=.15
+snappart\max angle=30
+
+# replay
+replay\export rate=30
+replay\export type=avi
+replay\loopmode=loop reverse
+
+# inertia for menus
+menu\inertia=200
+menu\text size=4
+
+# enable the display of text
+show text=1
+title text size=2
+#title text position=center
+#menu\text size=2
+#menu\text position=left top
+measurement text size=4
+replay\text size=2
+
+# Measurement
+stick measure to model=1
+measurement width=0.005
+#measurement shape=measure
+measurement magnetism=0.05
+measurement inertia=200
+measurement reference=model
+measurement type display=absolute+vector
+
+# Clipping plane
+clipplane\stick to wand=0
+clipplane\stick to model=1
+clip avatar width=1.0
+clip avatar length=1.0
+stick clipplane angle=10
+
+# enable avatars
+avatar=1
+avatar color\red=1
+avatar color\green=0.5
+avatar color\blue=0
+avatar shape=1
+rotation axe width=0.005
+rotation axe length=2
+
+# display model on master
+draw=1
+server local\draw=1
+
+config name= 120208 TechViz Tracking 1.7.3.8 CORNEA
+
+#license=@155.118.80.227:3997
+
+############################################################################
+#   SECTION 7   : SINGLE MACHINE QUICK TESTING
+#MULTIHOSTS=localhost
+## disable on application PC node the 3D software by separate process rendering
+server local=0
+## only display on a specific area of the render PC node screen (in pixels)
+#fullscreen x min=0
+#fullscreen x max=480
+#fullscreen y min=0
+#fullscreen y max=300
+## disable on render PC node screen mouse control
+#control mouse pointer=0
+## activate dtrack emulator
+#dtrack port=5000
+#dtrackemu port=5000
+#number of head=1
+#number of wand=1
+#head\0\device type=dtrackbody
+#head\0\sensor=0
+#wand\0\device type=dtrackflystick
+#wand\0\sensor=0
+#button mapping\flystick=Flystick2
+## deactivate usage of nvidia quad buffer (if nvidia not configured to stereo)
+#passive stereo=left
+## Tracking info on console
+#tracking info on console\refresh all=-1
+
+license=@109.171.138.34:3997
+
+#show logo=1
+#draw logo=1
+
+tz14=2
+#direct display=1
+#tz13=0x4040010
