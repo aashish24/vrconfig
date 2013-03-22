@@ -1,0 +1,230 @@
+# r2d1
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-1.609
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=0.311
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=0.822
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-1.737
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\y=0.849
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-0.206
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-1.923
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=0.311
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-0.146
+
+# r2d2
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\x=-1.819
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\y=0.311
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\z=-0.179
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\x=-1.319
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\y=0.849
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\z=-1.087
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\x=-1.505
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\y=0.311
+\host z5-0-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\z=-1.147
+
+# r2d3
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-1.400
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=0.311
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.099
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-0.462
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\y=0.849
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-1.539
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-0.577
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=0.311
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-1.697
+
+# r2d4
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\x=-0.509
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\y=0.311
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\z=-1.590
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\x=0.509
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\y=0.849
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\z=-1.394
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\x=0.509
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\y=0.311
+\host z5-1-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\z=-1.590
+
+# r2d5
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=0.577
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=0.311
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.697
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\x=1.285
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\y=0.849
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-0.941
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=1.400
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=0.311
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-1.099
+
+# r2d6
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\x=1.505
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\y=0.311
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\z=-1.147
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\x=1.633
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\y=0.849
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\z=-0.119
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\x=1.819
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\y=0.311
+\host z5-2-2.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\z=-0.179
+
+# r2d7
+\host z5-3-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=1.923
+\host z5-3-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=0.311
+\host z5-3-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-0.146
+\host z5-3-1.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\x=1.423
+\host z5-3-1.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\y=0.849
+\host z5-3-1.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\z=0.762
+\host z5-3-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=1.609
+\host z5-3-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=0.311
+\host z5-3-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=0.822
+
+# r1d1
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-1.568
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-0.287
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=0.808
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-1.882
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\y=0.287
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-0.160
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-1.882
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-0.287
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-0.160
+
+# r1d2
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\x=-1.778
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\y=-0.287
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\z=-0.166
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\x=-1.464
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\y=0.287
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\z=-1.134
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\x=-1.464
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\y=-0.287
+\host z5-0-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\z=-1.134
+
+# r1d3
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-1.375
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-0.287
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.064
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-0.551
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\y=0.287
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-1.662
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-0.551
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-0.287
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-1.662
+
+# r1d4
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\x=-0.509
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\y=-0.287
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\z=-1.547
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\x=0.509
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\y=0.287
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\z=-1.547
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\x=0.509
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\y=-0.287
+\host z5-1-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\z=-1.547
+
+# r1d5
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=0.551
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-0.287
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.662
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\x=1.375
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\y=0.287
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-1.064
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=1.375
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-0.287
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-1.064
+
+# r1d6
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\x=1.464
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\y=-0.287
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\z=-1.134
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\x=1.778
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\y=0.287
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\z=-0.166
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\x=1.778
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\y=-0.287
+\host z5-2-1.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\z=-0.166
+
+# r1d7
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\x=1.882
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\y=-0.287
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\z=-0.160
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\x=1.568
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\y=0.287
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\z=0.808
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\x=1.568
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\y=-0.287
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\z=0.808
+
+# r0d1
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-1.335
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-0.836
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=0.733
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-1.836
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\y=-0.298
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-0.175
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-1.650
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-0.836
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-0.235
+
+# r0d2
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\x=-1.546
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\y=-0.836
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\z=-0.089
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\x=-1.418
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\y=-0.298
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\z=-1.117
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\x=-1.232
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\y=-0.836
+\host z5-0-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\z=-1.057
+
+# r0d3
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=-1.231
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-0.836
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-0.866
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\x=-0.523
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\y=-0.298
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-1.622
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=-0.408
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-0.836
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-1.464
+
+# r0d4
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\x=-0.509
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\y=-0.836
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\z=-1.302
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\x=0.509
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\y=-0.298
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\z=-1.498
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\x=0.509
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\y=-0.836
+\host z5-1-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\z=-1.302
+
+# r0d5
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=0.408
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-0.836
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-1.464
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\x=1.346
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\y=-0.298
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\z=-1.024
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=1.231
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-0.836
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=-0.866
+
+# r0d6
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\x=1.232
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\y=-0.836
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\left\z=-1.057
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\x=1.732
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\y=-0.298
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen1\actual\top\right\z=-0.149
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\x=1.546
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\y=-0.836
+\host z5-2-0.z5.vis.kaust.edu.sa\screen screen1\actual\bottom\right\z=-0.089
+
+# r0d7
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\x=1.650
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\y=-0.836
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\left\z=-0.235
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\x=1.522
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\y=-0.298
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen0\actual\top\right\z=0.793
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\x=1.335
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\y=-0.836
+\host z5-3-0.z5.vis.kaust.edu.sa\screen screen0\actual\bottom\right\z=0.733
